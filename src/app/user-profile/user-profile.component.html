@@ -1,0 +1,7 @@
+<img src={{user.photo}} alt="photo de lego">
+<div class="presentation">Name : {{user.name}}</div>
+<div class="presentation">First name : {{user.firstName}}</div>
+<div id="age">I'm {{user.age}} years old</div>
+<div>{{user.quote}}</div>
+<input type="text"  id="" [(ngModel)]="user.quote">
+<button id="btnShowAge" (click)="showAge()">Hide age</button>
