@@ -1,0 +1,14 @@
+#Mainbloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%;
+}
+#Mainbloc div{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;  
+}
+body{
+    height: 100%;
+}
