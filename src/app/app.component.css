@@ -1,14 +1,4 @@
-#mainBloc{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    height: 100vh;
-}
-#mainBloc div{
-    display: flex;
-    flex-direction: row ;
-    justify-content: space-between;  
-}
-body{
-    height: 100%;
+.vital {
+    color: red;
+    font-weight: bold;
 }

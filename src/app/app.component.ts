@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'title of composant appRoot';
+
+  isThisIngredientVital: boolean = true;
+  songList: string[] = ["Alejandro", "Ne me quitte pas", "Le temps est bon"];
 }
