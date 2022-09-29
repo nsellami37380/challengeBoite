@@ -1,0 +1,20 @@
+fieldset{
+    margin-bottom: 1em;
+    border: 0px;
+    width: fit-content;
+    padding: 1em;
+    background-color: whitesmoke;
+
+}
+label{
+    display: block;
+}
+input{
+    width: 70ch;
+    min-width: 15em;
+    max-width: 30em;
+
+}
+div{
+    color: red;
+}

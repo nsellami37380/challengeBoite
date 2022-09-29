@@ -10,6 +10,7 @@ import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { UserComponent } from './user/user.component';
 import { MenuComponent } from './menu/menu.component';
+import { MyFormComponent } from './my-form/my-form.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MenuComponent } from './menu/menu.component';
     UserProfileComponent,
     SignUpComponent,
     UserComponent,
-    MenuComponent
+    MenuComponent,
+    MyFormComponent
   ],
   imports: [
     BrowserModule,
